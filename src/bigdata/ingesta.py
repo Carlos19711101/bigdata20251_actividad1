@@ -11,7 +11,7 @@ def obtener_datos_api(url="", params={}):
         return {}
 
 # URL de la API de APOD de la NASA
-url = "https://api.nasa.gov/planetary/apod"
+url = "https://api.nasa.gov/planetary/apod" 
 
 # Parámetros (usamos la clave de demostración)
 params = {
