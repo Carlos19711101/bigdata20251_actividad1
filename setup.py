@@ -9,7 +9,10 @@ setup(
     py_modules=["antividad_1"],
     install_requires=[
     "pandas",
-    "openpyxl"  
+    "openpyxl",  
+    "requests",
+    "dotenv",
+    "setuptools"
     ]
 
 )
