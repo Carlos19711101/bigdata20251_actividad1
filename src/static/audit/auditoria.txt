@@ -1,6 +1,5 @@
 Número de filas: 1
 Tipos de datos de cada columna:
-copyright          object
 date               object
 explanation        object
 hdurl              object
@@ -10,7 +9,6 @@ title              object
 url                object
 dtype: object
 Número de valores nulos en cada columna:
-copyright          0
 date               0
 explanation        0
 hdurl              0
