@@ -45,7 +45,8 @@ df_clean_end = df_clean
 
 log_step(f"DataFrame final creada con forma: \n{df_clean_end.shape}\n")
 
-
+df_clean_end['name'] = df_clean_end['name'].str.lower()
+log_step("convertiendo la columna name a minusculas\n")
 
 
 log_step("Llenando valores nulos\n")
