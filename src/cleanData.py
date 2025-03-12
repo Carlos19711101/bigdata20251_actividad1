@@ -48,6 +48,9 @@ log_step(f"DataFrame final creada con forma: \n{df_clean_end.shape}\n")
 df_clean_end['name'] = df_clean_end['name'].str.lower()
 log_step("convertiendo la columna name a minusculas\n")
 
+df_clean_end['symbol'] = df_clean_end['symbol'].str.upper()
+log_step("convirtiendo la columna name a mayúsculas\n")
+
 
 log_step("Llenando valores nulos\n")
 df_clean_end = df_clean.fillna({
