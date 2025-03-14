@@ -58,7 +58,7 @@ df_clean_end = df_clean.fillna({
     'roi.times': 0, 
     'roi.currency': 0,
     'roi.percentage': 0,
-    'maxSupply': 0
+    'max_supply': 0
     
 })
 
