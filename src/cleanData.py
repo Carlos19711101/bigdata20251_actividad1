@@ -57,9 +57,12 @@ df_clean_end = df_clean.fillna({
     'roi': 0, 
     'roi.times': 0, 
     'roi.currency': 0,
-    'roi.percentage': 0 
+    'roi.percentage': 0,
+    'maxSupply': 0
     
 })
+
+
 
 
 df_clean_log_end = get_output_txt(df_clean_end, 'info')
