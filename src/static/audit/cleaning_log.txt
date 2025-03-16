@@ -732,3 +732,151 @@ memory usage: 22.8+ KB
 [2025-03-14 23:13:32] Tabla de limpieza creada: 
 api_clean
 
+[2025-03-16 15:06:42] Inicio proceso de limpieza de datos
+
+[2025-03-16 15:06:42] Conexión a la base de datos establecida y datos recuperados de api_exchange
+
+[2025-03-16 15:06:42] DataFrame inicial creada con forma:
+(100, 29)
+
+[2025-03-16 15:06:42] Información de DataFrame:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 29 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   id                                100 non-null    object 
+ 1   symbol                            100 non-null    object 
+ 2   name                              100 non-null    object 
+ 3   image                             100 non-null    object 
+ 4   current_price                     100 non-null    float64
+ 5   market_cap                        100 non-null    int64  
+ 6   market_cap_rank                   100 non-null    int64  
+ 7   fully_diluted_valuation           100 non-null    int64  
+ 8   total_volume                      100 non-null    float64
+ 9   high_24h                          100 non-null    float64
+ 10  low_24h                           100 non-null    float64
+ 11  price_change_24h                  100 non-null    float64
+ 12  price_change_percentage_24h       100 non-null    float64
+ 13  market_cap_change_24h             100 non-null    float64
+ 14  market_cap_change_percentage_24h  100 non-null    float64
+ 15  circulating_supply                100 non-null    float64
+ 16  total_supply                      100 non-null    float64
+ 17  max_supply                        48 non-null     float64
+ 18  ath                               100 non-null    float64
+ 19  ath_change_percentage             100 non-null    float64
+ 20  ath_date                          100 non-null    object 
+ 21  atl                               100 non-null    float64
+ 22  atl_change_percentage             100 non-null    float64
+ 23  atl_date                          100 non-null    object 
+ 24  roi                               0 non-null      object 
+ 25  last_updated                      100 non-null    object 
+ 26  roi.times                         13 non-null     float64
+ 27  roi.currency                      13 non-null     object 
+ 28  roi.percentage                    13 non-null     float64
+dtypes: float64(17), int64(3), object(9)
+memory usage: 22.8+ KB
+
+
+[2025-03-16 15:06:42] Duplicados eliminados. Nueva forma:
+(100, 29)
+
+[2025-03-16 15:06:42] Creando el array con las columnas que van a convertirse a numéricas: 
+['roi', 'roi.times', 'roi.currency', 'roi.percentage']
+
+[2025-03-16 15:06:42] convertiendo las columnas a numéricas
+
+[2025-03-16 15:06:42] información de DataFrame con las columnas convertidas a numéricas: 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 29 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   id                                100 non-null    object 
+ 1   symbol                            100 non-null    object 
+ 2   name                              100 non-null    object 
+ 3   image                             100 non-null    object 
+ 4   current_price                     100 non-null    float64
+ 5   market_cap                        100 non-null    int64  
+ 6   market_cap_rank                   100 non-null    int64  
+ 7   fully_diluted_valuation           100 non-null    int64  
+ 8   total_volume                      100 non-null    float64
+ 9   high_24h                          100 non-null    float64
+ 10  low_24h                           100 non-null    float64
+ 11  price_change_24h                  100 non-null    float64
+ 12  price_change_percentage_24h       100 non-null    float64
+ 13  market_cap_change_24h             100 non-null    float64
+ 14  market_cap_change_percentage_24h  100 non-null    float64
+ 15  circulating_supply                100 non-null    float64
+ 16  total_supply                      100 non-null    float64
+ 17  max_supply                        48 non-null     float64
+ 18  ath                               100 non-null    float64
+ 19  ath_change_percentage             100 non-null    float64
+ 20  ath_date                          100 non-null    object 
+ 21  atl                               100 non-null    float64
+ 22  atl_change_percentage             100 non-null    float64
+ 23  atl_date                          100 non-null    object 
+ 24  roi                               0 non-null      float64
+ 25  last_updated                      100 non-null    object 
+ 26  roi.times                         13 non-null     float64
+ 27  roi.currency                      0 non-null      float64
+ 28  roi.percentage                    13 non-null     float64
+dtypes: float64(19), int64(3), object(7)
+memory usage: 22.8+ KB
+
+
+[2025-03-16 15:06:42] DataFrame final creada con forma: 
+(100, 29)
+
+[2025-03-16 15:06:42] convertiendo la columna name a minusculas
+
+[2025-03-16 15:06:42] convirtiendo la columna name a mayúsculas
+
+[2025-03-16 15:06:42] Llenando valores nulos
+
+[2025-03-16 15:06:42] DataFrameb despues de eliminar  elementos son nulos: 
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 29 columns):
+ #   Column                            Non-Null Count  Dtype  
+---  ------                            --------------  -----  
+ 0   id                                100 non-null    object 
+ 1   symbol                            100 non-null    object 
+ 2   name                              100 non-null    object 
+ 3   image                             100 non-null    object 
+ 4   current_price                     100 non-null    float64
+ 5   market_cap                        100 non-null    int64  
+ 6   market_cap_rank                   100 non-null    int64  
+ 7   fully_diluted_valuation           100 non-null    int64  
+ 8   total_volume                      100 non-null    float64
+ 9   high_24h                          100 non-null    float64
+ 10  low_24h                           100 non-null    float64
+ 11  price_change_24h                  100 non-null    float64
+ 12  price_change_percentage_24h       100 non-null    float64
+ 13  market_cap_change_24h             100 non-null    float64
+ 14  market_cap_change_percentage_24h  100 non-null    float64
+ 15  circulating_supply                100 non-null    float64
+ 16  total_supply                      100 non-null    float64
+ 17  max_supply                        100 non-null    float64
+ 18  ath                               100 non-null    float64
+ 19  ath_change_percentage             100 non-null    float64
+ 20  ath_date                          100 non-null    object 
+ 21  atl                               100 non-null    float64
+ 22  atl_change_percentage             100 non-null    float64
+ 23  atl_date                          100 non-null    object 
+ 24  roi                               100 non-null    float64
+ 25  last_updated                      100 non-null    object 
+ 26  roi.times                         100 non-null    float64
+ 27  roi.currency                      100 non-null    float64
+ 28  roi.percentage                    100 non-null    float64
+dtypes: float64(19), int64(3), object(7)
+memory usage: 22.8+ KB
+
+
+[2025-03-16 15:06:42] Archivo CSV generado
+
+[2025-03-16 15:06:42] Archivo Excel generado
+
+[2025-03-16 15:06:42] Tabla de limpieza creada: 
+api_clean
+
