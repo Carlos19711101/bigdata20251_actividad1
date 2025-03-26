@@ -48,7 +48,7 @@ market_cap_change_24h                 0
 market_cap_change_percentage_24h      0
 circulating_supply                    0
 total_supply                          0
-max_supply                           52
+max_supply                           51
 ath                                   0
 ath_change_percentage                 0
 ath_date                              0
@@ -57,7 +57,7 @@ atl_change_percentage                 0
 atl_date                              0
 roi                                 100
 last_updated                          0
-roi.times                            87
-roi.currency                         87
-roi.percentage                       87
+roi.times                            86
+roi.currency                         86
+roi.percentage                       86
 dtype: int64
