@@ -30,11 +30,12 @@ jobs:
         run: python src/script.py
       - name: paso6 - Ejecutar cleanData 
         run: python src/cleanData.py
-
+      - name: paso7 - Ejecutar transformación entrega 3
+        run: python src/Transformation.py
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: generación informe prueba json
+          commit_message: generación informe prueba entrega 1 2 3
           commit_user_name: Carlos Velez [GitHub Actions]
           commit_user_email: carlos.velez@iudigital.edu.co
           commit_author: Carlos Velez <carlos.velez@iudigital.edu.co>
