@@ -79,3 +79,5 @@ log_step("Archivo Excel generado\n")
 
 create_table(conn, table_clean, df_clean_end)
 log_step(f"Tabla de limpieza creada: \n{table_clean}\n")
+
+
