@@ -48,7 +48,7 @@ market_cap_change_24h                 0
 market_cap_change_percentage_24h      0
 circulating_supply                    0
 total_supply                          0
-max_supply                           51
+max_supply                           53
 ath                                   0
 ath_change_percentage                 0
 ath_date                              0
