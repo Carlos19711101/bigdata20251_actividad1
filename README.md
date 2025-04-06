@@ -86,9 +86,9 @@
 # Flujo de Datos
 ![Flujo de Datos](./docs/imagen/Flujo_Datos.PNG)
 
-## diagrama del sistema
+## diagrama del proceso de limpieza
 
-![Diagrama del sistema](./docs/imagen/Flujo_Datos.PNG)
+![Diagrama del proceso de limpieza](./docs/imagen/proceso_limpieza.png)
 
 # Modelo de Datos
 ## Definición del Esquema:
