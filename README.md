@@ -86,3 +86,40 @@
 # Flujo de Datos
 ![Flujo de Datos](./docs/imagen/Flujo_Datos.PNG)
 
+## diagrama del sistema
+
+![Diagrama del sistema](./docs/imagen/Flujo_Datos.PNG)
+
+# Modelo de Datos
+## Definición del Esquema:
+### Describe el modelo de datos resultante del proceso de integración.
+
+#### El modelo resultante es un esquema relacional organizado en tres bases de datos SQLite especializadas:
+#### bd_analisis.sqlite (Datos brutos y limpios).
+#### bd_info.sqlite (Metadatos de criptomonedas).
+#### bd_market.sqlite (Datos de mercado en tiempo real).
+
+# Tablas y Campos Principales
+### Explica las tablas involucradas, sus campos y tipos de datos.
+### Detalla las relaciones entre las tablas (por ejemplo, claves primarias y foráneas).
+
+![api clean](./docs/imagen/tabla_api_clean.PNG)
+![api exchange](./docs/imagen/Tabla_api_exchange.PNG)
+![info exchange](./docs/imagen/tabla_Info_exchange.PNG)
+![market exchange](./docs/imagen/tabla_market_exchange.PNG)
+
+# Diagrama de datos:
+
+### Incluye un diagrama que visualice el modelo de datos, resaltando las interconexiones y la estructura lógica que soporta el análisis en el proyecto.
+
+![Diagrama de datos](./docs/imagen/diagrama_datos.png)
+
+
+
+
+
+
+
+
+
+
